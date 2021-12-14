@@ -4,6 +4,7 @@ function Footer() {
     return (
         <footer>
             <p>Footer</p>
+            <p>dehv</p>
         </footer>
     );
 }
