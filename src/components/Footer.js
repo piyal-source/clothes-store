@@ -43,7 +43,8 @@ function Footer() {
 							<div className="footer">
 								<h3 className="footer-title">Information</h3>
 								<ul className="footer-links" style={{listStyleType:"none"}}>
-									<li>About Us</li>
+									<li>    <FontAwesomeIcon icon="check-square" />
+About Us</li>
 									<li>Contact Us</li>
 									<li>Privacy Policy</li>
 									<li>Orders and Returns</li>
