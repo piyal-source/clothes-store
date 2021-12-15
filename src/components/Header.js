@@ -1,24 +1,28 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import 'jquery';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
+const handleToggle = () => {
+    document.getElementById("navbarMenu").classList.toggle("collapse");
+}
 
 function Header() {
     return (
         <header>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <a className="navbar-brand" href="#">Clothes Store</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+            <nav className="navbar navbar-expand-md navbar-light bg-light">
+                <a href="#" className="navbar-brand">Clothes Store</a>
+                <button className="navbar-toggler" dataToggle="collapse" dataTarget="#navbarMenu" onClick={handleToggle}>
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse">
-                    <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li className="nav-item active">
-                            <a className="nav-link" href="#">Home</a>
+
+                <div className="collapse navbar-collapse" id="navbarMenu">
+                    <ul className="navbar-nav">
+                        <li className="nav-item">
+                            <a href="#" className="nav-link">Products</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Categories</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Account</a>
+                            <a href="#" className="nav-link">About Us</a>
                         </li>
                     </ul>
                 </div>
