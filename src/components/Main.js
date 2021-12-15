@@ -1,9 +1,10 @@
 import React from "react";
+import Signup from './components/Signup';
 
 function Main() {
     return (
         <main>
-            <p>Main</p>
+            <Signup />
         </main>
     );
 }

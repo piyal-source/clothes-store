@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import 'jquery';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap/dist/js/bootstrap.min.js';
 
 const handleToggle = () => {
     document.getElementById("navbarMenu").classList.toggle("collapse");
