@@ -11,7 +11,7 @@ function Footer() {
 
                 <div className="container">
 
-                    <div className="row">
+                    <div className="row" id="bottom-footer">
                         <div className="col-md-3 col-xs-6">
                             <div className="footer">
                                 <h3 className="footer-title">About Us</h3>

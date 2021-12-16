@@ -1,8 +1,9 @@
 import React from "react";
-import signup from 'signup.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 //import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../signup.css';
+
+const signupImg = './images/signupImg.jpg';
 
 function Signup() {
     return (
@@ -39,7 +40,7 @@ function Signup() {
                         </form>
                     </div>
                     <div className="signup-image">
-                        <figure><img src={signup} alt="sing up image" /></figure>
+                        <figure><img src={signupImg} alt="sing up image" /></figure>
                         <a href="#" className="signup-image-link">I am already member</a>
                     </div>
                 </div>
